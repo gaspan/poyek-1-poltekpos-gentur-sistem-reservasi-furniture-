@@ -1,0 +1,1 @@
+<?php header('location:homepage/halaman_umum.html?page=home'); ?>

@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	background:url(images/url.jpg);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	color: #222;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	width:700px;
+}
+a:hover {
+text-decoration: underline;
+color: #111;
+}
+
+#wrap {
+	margin: auto;
+	width: 700px;
+	height: 700px;
+}
+
+#header {
+	background: #fff url(images/header1.jpg) no-repeat;
+	height: 180px;
+}
+ h1 {
+	padding: 10px 0 0 5px;
+	font-size: 20px;
+	color: #000;
+}
+ h1 a {
+	padding: 10px 0 0 5px;
+	font-size: 18px;
+	color: #000;
+	font-weight: 100;
+	text-decoration: underline;
+}
+
+
+#content {
+padding: 0 20px;
+background: #fff url(images/content2.jpg) repeat-y;
+}
+
+.right {
+	float: right;
+	width: 500px;
+	height: 500px;
+	text-align: justify;
+}
+.right h2 {
+	font-size: 18px;
+	font-weight: 100;
+	padding-left: 10px;
+	height: 34px;
+	line-height: 30px;
+	background: #FF9600;
+}
+.right h2 a {
+	text-decoration: none;
+	color: #fff;
+}
+.right h2 a:hover {
+color: #111;
+}
+
+.left {
+	float: left;
+	width: 150px;
+}
+.left h2 {
+padding-left: 10px;
+height: 24px;
+line-height: 24px;
+background: #FF9600;
+color: #fff;
+font-size: 13px;
+}
+.left ul {
+	padding: 10px 0 15px 20px;
+	color: #000000;
+}
+.left ul li a {
+text-decoration: none;
+font-weight: 600;
+}
+.left ul li a:hover {
+
+}
+.articles {
+	padding: 10px;
+}
+
+#bottom {
+background: #fff url(images/bottom2.jpg) no-repeat;
+padding: 10px 0;
+}
+
+#footer {
+text-align: center;
+font-size: 11px;
+color: black;
+padding-bottom: 10px;
+}
+#footer a { color: black; }
+#footer a:hover { color: black; }
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
